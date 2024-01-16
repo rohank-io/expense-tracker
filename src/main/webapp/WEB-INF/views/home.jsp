@@ -23,6 +23,8 @@
 		<div>
 			<h3>${expense.description}</h3>
 			<p>&#8377;${expense.amount}</p>
+			<a href="${ContextRoot}/expense/${expense.id}">edit</a>
+					
 		</div>
 
 	</c:forEach>
